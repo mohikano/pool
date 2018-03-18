@@ -12,7 +12,7 @@ TO INSTALL:
 3. Add user to sudo group - sudo adduser (username) sudo
 4. Log in to new user - sudo su (username)
 5. cd ~/
-6. wget https://github.com/mohikano/pool/blob/next/install.sh && chmod +x install.sh && ./install.sh
+6. sudo wget https://github.com/mohikano/pool/raw/next/install.sh && sudo chmod +x install.sh && sudo ./install.sh
 7. Follow the instructions on the screen.
 8. sudo bash screen-start.sh
 
